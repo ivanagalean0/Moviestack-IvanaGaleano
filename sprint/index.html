@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./Recursos Moviestack/Recursos Moviestack/Moviestack_favicon.png" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>HOME</title>
+    </head>
+    <body>
+        <div class="w-full min-h-screen flex flex-col font-mono">
+            <header class="sticky w-full bg-purple-400 text-black flex items-center justify-between flex-wrap px-5">
+                <img class="w-40 h-28 object-cover" src="./Recursos Moviestack/Recursos Moviestack/Moviestack_isotipo.png" alt="Logo de Moviestack">
+                <img class="w-40 h-28 object-cover" src="./Recursos Moviestack/Recursos Moviestack/Moviestack_logotipo1.png" alt="Banner">
+                <nav class="grow p-2 flex justify-end gap-5">
+                    <a class="bg-white text-black border-2 rounded p-2 text-lg font-semibold" href="#">Home</a>
+                    <a class="hover:bg-white border-2 rounded p-2 text-lg font-semibold" href="./peliculas.html">Movies</a>
+                    <a class="hover:bg-white border-2 rounded p-2 text-lg font-semibold" href="#">Favs</a>
+                </nav>
+            </header>
+
+            <main class="bg-violet-300 grow p-10 flex flex-col gap-5 text-black">
+                <img class=" w-full h-56 object-cover brightness-50" src="./Recursos Moviestack/movies.jpg" alt="Banner">
+                <p class="text-center p-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sapiente officiis, totam necessitatibus, laudantium dolor cupiditate debitis vero molestiae sed saepe repellat doloremque, commodi odio minus expedita animi voluptates? Itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quam laudantium, enim quasi et cum porro minima! Illo facere harum dolorem nemo porro esse iure excepturi rem! Provident, dolores dicta!</p>
+                <div class="flex flex-row justify-evenly p-5">
+                    <article class="hover:scale-125 hover:transition-all bg-purple-400 text-black flex flex-col flex-wrap shadow-purple-600  border-2 border-purple-400 rounded-lg size-60">
+                        <div class="flex flex-col text-center p-10">
+                            <h3 class="font-semibold p-5"> ¿QUERÉS VER PELÍCULAS? </h3>
+                            <a class="font-semibold border-2 rounded-full border-black" href="./peliculas.html">¡ES GRATIS!</a>
+                        </div>
+                    </article>
+                    <article class="hover:scale-125 hover:transition-all bg-purple-400 text-black flex flex-col flex-wrap shadow-purple-600  border-2 border-purple-400 rounded-lg size-60">
+                        <div class="flex flex-col text-center p-10">
+                            <h3 class="font-semibold p-5"> ACÁ ESTÁN TUS PELICULAS FAVORITAS! </h3>
+                            <a class="font-semibold border-2 rounded-full border-black" href="./peliculas.html">¡ES GRATIS!</a>
+                        </div>
+                    </article>
+                </div>
+            
+            </main>
+            <footer class="text-center bg-purple-400 text-center p-5">
+                <p>Ivana Galeano - Cohort 50</p>
+            </footer>
+        </div>
+        
+
+        <script src="./assets/data.js"></script>
+        <script src="./assets/pelis.js"></script>
+    </body>
+</html>
