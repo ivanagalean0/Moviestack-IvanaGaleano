@@ -49,7 +49,7 @@ input.addEventListener("input", (event) => {
     imprimirTarjetas(peliculasFiltradas, main)
 })
 
-        /* FILTRAR LOS SELECT POR GENERO*: ¡¡¡NO ME FUNCIONA, HAY ALGO MAL!!! */ 
+        /* FILTRAR LOS SELECT POR GENERO */ 
 // 1. conseguir los generos, 
 // 2. quitar repetidos (.flat)
 const generos = new Set(peliculas.map(pelicula => pelicula.genres).flat())
@@ -74,7 +74,6 @@ function filtrarPeliculasPorGenero(listaPeliculas, generoSeleccionado) {
     }
 }
 // 4. crear evento que detecte que cuando seleccione uno de los generos, me devuelva las peliculas que contienen ese genero
-    // esta parte no me funciona 
 contenedorSelect.addEventListener("change", (event) => {
     const tituloIngresado = input.value
     const generoSeleccionado = event.target.value
